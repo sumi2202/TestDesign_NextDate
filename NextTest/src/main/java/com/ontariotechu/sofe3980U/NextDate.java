@@ -19,7 +19,8 @@ public class NextDate {
         }
 
 
-
+        returnDate = year + "/" + month + "/" + day;
+        return returnDate;
     }
 
 }
