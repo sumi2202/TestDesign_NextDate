@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="edc881d7-7021-4dc1-b47a-e8e5a9e585a2" name="Changes" comment="should work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextTest/src/main/java/com/ontariotechu/sofe3980U/NextDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/src/main/java/com/ontariotechu/sofe3980U/NextDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextTest/target/NextTest-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/target/NextTest-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextTest/target/maven-javadoc-plugin-stale-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/target/maven-javadoc-plugin-stale-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextTest/target/site/dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/target/site/dependencies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextTest/target/surefire-reports/TEST-com.ontariotechu.sofe3980U.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/target/surefire-reports/TEST-com.ontariotechu.sofe3980U.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextTest/target/surefire-reports/com.ontariotechu.sofe3980U.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/target/surefire-reports/com.ontariotechu.sofe3980U.AppTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +20,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/NextTest" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -33,14 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Laksu/NextDateTesting",
-    "settings.editor.selected.configurable": "configurable.group.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Laksu/NextDateTesting&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;discord-application&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -92,7 +96,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678648125229</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="should work">
+      <created>1678648280297</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678648280297</updated>
+    </task>
+    <task id="LOCAL-00008" summary="should work">
+      <created>1678648319741</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678648319741</updated>
+    </task>
+    <task id="LOCAL-00009" summary="should work">
+      <created>1678648371631</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678648371632</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
