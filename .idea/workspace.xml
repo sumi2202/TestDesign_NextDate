@@ -6,6 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="edc881d7-7021-4dc1-b47a-e8e5a9e585a2" name="Changes" comment="should work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextTest/src/main/java/com/ontariotechu/sofe3980U/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/src/main/java/com/ontariotechu/sofe3980U/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextTest/target/NextTest-1.0.0-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/target/NextTest-1.0.0-jar-with-dependencies.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextTest/target/NextTest-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/target/NextTest-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextTest/target/maven-javadoc-plugin-stale-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/target/maven-javadoc-plugin-stale-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextTest/target/surefire-reports/TEST-com.ontariotechu.sofe3980U.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/target/surefire-reports/TEST-com.ontariotechu.sofe3980U.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextTest/target/surefire-reports/com.ontariotechu.sofe3980U.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/target/surefire-reports/com.ontariotechu.sofe3980U.AppTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +48,6 @@
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="temurin-11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.ontariotechu.sofe3980U.App" />
       <module name="NextTest" />
       <extension name="coverage">
