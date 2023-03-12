@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edc881d7-7021-4dc1-b47a-e8e5a9e585a2" name="Changes" comment="should work" />
+    <list default="true" id="edc881d7-7021-4dc1-b47a-e8e5a9e585a2" name="Changes" comment="should work">
+      <change beforePath="$PROJECT_DIR$/NextTest/src/main/java/com/ontariotechu/sofe3980U/NextDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/src/main/java/com/ontariotechu/sofe3980U/NextDate.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
