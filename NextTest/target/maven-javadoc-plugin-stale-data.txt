@@ -1,0 +1,49 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/Laksu/NextDateTesting/NextTest/target/classes;C:/Users/Laksu/NextDateTesting/NextTest/target/test-classes;C:/Users/Laksu/.m2/repository/junit/junit/4.11/junit-4.11.jar;C:/Users/Laksu/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.7'
+-sourcepath
+'C:/Users/Laksu/NextDateTesting/NextTest/src/test/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Laksu/NextDateTesting/NextTest/target/site/testapidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'NextTest 1.0.0 Test API'
+-link
+'../apidocs'
+-linkoffline
+'https://docs.oracle.com/javase/7/docs/api' 'C:/Users/Laksu/NextDateTesting/NextTest/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'NextTest 1.0.0 Test API'
+com.ontariotechu.sofe3980U
+'C:/Users/Laksu/NextDateTesting/NextTest/src/test/java/com/ontariotechu/sofe3980U/AppTest.java'
+C:\Users\Laksu\NextDateTesting\NextTest\target\classes = 1678643713668
+C:\Users\Laksu\NextDateTesting\NextTest\target\test-classes = 1678643713757
+C:\Users\Laksu\.m2\repository\junit\junit\4.11\junit-4.11.jar = 1674755748545
+C:\Users\Laksu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar = 1674755748561
+C:\Users\Laksu\NextDateTesting\NextTest\src\test\java = 1678643524309
+C:\Users\Laksu\NextDateTesting\NextTest\target\site\testapidocs\allclasses-frame.html = 1678645336271
+C:\Users\Laksu\NextDateTesting\NextTest\target\site\testapidocs\allclasses-noframe.html = 1678645336275
+C:\Users\Laksu\NextDateTesting\NextTest\target\site\testapidocs\constant-values.html = 1678645336210
+C:\Users\Laksu\NextDateTesting\NextTest\target\site\testapidocs\deprecated-list.html = 1678645336264
+C:\Users\Laksu\NextDateTesting\NextTest\target\site\testapidocs\help-doc.html = 1678645336290
+C:\Users\Laksu\NextDateTesting\NextTest\target\site\testapidocs\index-all.html = 1678645336256
+C:\Users\Laksu\NextDateTesting\NextTest\target\site\testapidocs\index.html = 1678645336279
+C:\Users\Laksu\NextDateTesting\NextTest\target\site\testapidocs\overview-tree.html = 1678645336245
+C:\Users\Laksu\NextDateTesting\NextTest\target\site\testapidocs\package-list = 1678645336171
+C:\Users\Laksu\NextDateTesting\NextTest\target\site\testapidocs\script.js = 1678645336301
+C:\Users\Laksu\NextDateTesting\NextTest\target\site\testapidocs\stylesheet.css = 1678645336297
