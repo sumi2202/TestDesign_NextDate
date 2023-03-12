@@ -2,7 +2,7 @@ package com.ontariotechu.sofe3980U;
 
 
 public class NextDate {
-    public static String Date(int day, int month, int year){
+    public static String Date(int year, int month, int day){
         String returnDate;
 
         if(year < 1812 || year > 2212){
