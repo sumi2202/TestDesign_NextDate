@@ -2,10 +2,6 @@ package com.ontariotechu.sofe3980U;
 
 
 public class NextDate {
-
-    private int day;
-    private int month;
-    private int year;
     public static String Nextdate(int day, int month, int year){
         String returnDate;
 
@@ -17,6 +13,12 @@ public class NextDate {
             System.out.println("This is not a valid month");
             return "This is not a valid month";
         }
+        if (day < 1 || day > 31){
+            System.out.println("This is not a valid day");
+            return "This is not a valid day";
+        }
+
+
 
     }
 
