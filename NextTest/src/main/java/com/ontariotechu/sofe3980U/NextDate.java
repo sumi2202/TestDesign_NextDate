@@ -5,18 +5,21 @@ public class NextDate {
     public static String Date(int year, int month, int day){
         String returnDate;
 
+        //checking to see if a valid year, month, and day are provided
         if(year < 1812 || year > 2212){
-            System.out.println("This is not a valid year");
-            return "This is not a valid date";
+            //System.out.println("This is not a valid year");
+            return "This is not a valid year";
         }
         else if (month < 1 || month > 12){
-            System.out.println("This is not a valid month");
-            return "This is not a valid date";
+            //System.out.println("This is not a valid month");
+            return "This is not a valid month";
         }
         else if (day < 1 || day > 31){
-            System.out.println("This is not a valid day");
-            return "This is not a valid date";
+            //System.out.println("This is not a valid day");
+            return "This is not a valid day";
         }
+        //ensuring that the months that have 30 days and the months that have 31 days are accounted for
+
 
 
         returnDate = year + "/" + month + "/" + day;
