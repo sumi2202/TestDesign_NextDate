@@ -21,7 +21,7 @@ public class NextDate {
             return "Invalid date entered!";
         }
         //confirming leap years
-        if(year % 400 == 0 || year % 4 == 0 && year % 100 != 0){
+        if(year % 4 == 0 && year % 100 != 0|| year % 400 == 0 ){
             yearLeap = true;
         }
         //ensuring that the months that have 30 days and the months that have 31 days are accounted for
@@ -45,26 +45,31 @@ public class NextDate {
         else if(month == 12 && day == 31 && year == 2212){
             return "Beyond Range";
         }
+        //Will be incremented to February 29th
         else if(yearLeap && month == 2 && day == 28){
             day = day + 1;
         }
+        //Leap Year Februarys only have 29 days
         else if (yearLeap && month == 2 && day > 29) {
             return "Invalid Leap Year Entry";
         }
+        //February 29th on a Leap Year will increment to March 1st
         else if(yearLeap && month == 2 && day == 29){
             month = month + 1;
             day = 1;
         }
+        //During regular years, February 28th will be incremented to March 1st
         else if(!yearLeap && month == 2 && day == 28){
             month = month + 1;
             day =  1;
-        } else if (!yearLeap && month == 2 && day > 28) {
+        }
+        //There cannot be more than 28 days in February during a regular year
+        else if (!yearLeap && month == 2 && day >= 29) {
             return "Invalid Non-Leap Year Entry";
         }
         else{
             day = day + 1;
         }
-
         returnDate = year + "/" + month + "/" + day;
         return returnDate;
     }
