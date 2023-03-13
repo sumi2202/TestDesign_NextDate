@@ -17,15 +17,15 @@ public class AppTest
     @Test
     public void invalidYear(){
         assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
-        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
-        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
-        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
+        assertEquals(NextDate.Date(2222, 10, 29), "Invalid Year Value");
+        assertEquals(NextDate.Date(3232, 7, 10), "Invalid Year Value");
+        assertEquals(NextDate.Date(1000, 5, 23), "Invalid Year Value");
     }
     public void invalidMonth(){
-        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
-        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
-        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
-        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
+        assertEquals(NextDate.Date(2021, 13, 25), "Invalid Year Value");
+        assertEquals(NextDate.Date(3021, 12, 2), "Invalid Year Value");
+        assertEquals(NextDate.Date(3021, 12, 7), "Invalid Year Value");
+        assertEquals(NextDate.Date(3021, 12, 19), "Invalid Year Value");
     }
     public void invalidDay(){
         assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
