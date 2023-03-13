@@ -29,10 +29,20 @@ public class NextDate {
             month = month + 1;
             day = 1;
         }
-        if((month == 4 || month == 6 || month == 9 || month == 11 ) && day == 31){
+        else if((month == 4 || month == 6 || month == 9 || month == 11 ) && day == 31){
             month = month + 1;
             day = 1;
         }
+        else if(month == 12 && day == 31 && year < 2212){
+            month = 1;
+            day = 1;
+            year = year + 1;
+        }
+        else if(month == 12 && day == 31 && year == 2212){
+            return "Beyond Range";
+        }
+        
+
 
 
 
