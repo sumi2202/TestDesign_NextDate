@@ -1,6 +1,6 @@
 //Laksumi Somaskanthamoorthy
 //100782723
-//App.java calls the NextDate class in order to calculate the next date of the inputted current date
+//NextDate.java calculates the next date of the given input
 
 package com.ontariotechu.sofe3980U;
 

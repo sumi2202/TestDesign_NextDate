@@ -1,3 +1,6 @@
+//Laksumi Somaskanthamoorthy
+//100782723
+//AppTest.java runs test cases through App.Java
 package com.ontariotechu.sofe3980U;
 
 import static org.junit.Assert.assertTrue;
