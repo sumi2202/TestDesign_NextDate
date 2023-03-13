@@ -10,15 +10,15 @@ public class NextDate {
         //checking to see if a valid year, month, and day are provided
         if(year < 1812 || year > 2212){
             System.out.println("This is not a valid year");
-            return "Invalid date entered!";
+            return "Invalid year entered!";
         }
         else if (month < 1 || month > 12){
             System.out.println("This is not a valid month");
-            return "Invalid date entered!";
+            return "Invalid month entered!";
         }
         else if (day < 1 || day > 31){
             System.out.println("This is not a valid day");
-            return "Invalid date entered!";
+            return "Invalid day entered!";
         }
         //confirming leap years
         if(year % 4 == 0 && year % 100 != 0|| year % 400 == 0 ){
