@@ -22,16 +22,16 @@ public class AppTest
         assertEquals(NextDate.Date(1000, 5, 23), "Invalid Year Value");
     }
     public void invalidMonth(){
-        assertEquals(NextDate.Date(2021, 13, 25), "Invalid Year Value");
-        assertEquals(NextDate.Date(3021, 12, 2), "Invalid Year Value");
-        assertEquals(NextDate.Date(3021, 12, 7), "Invalid Year Value");
-        assertEquals(NextDate.Date(3021, 12, 19), "Invalid Year Value");
+        assertEquals(NextDate.Date(2021, 13, 25), "Invalid Month Value");
+        assertEquals(NextDate.Date(2000, -2, 2), "Invalid Month Value");
+        assertEquals(NextDate.Date(1999, 29, 7), "Invalid Month Value");
+        assertEquals(NextDate.Date(1854, 77, 19), "Invalid Month Value");
     }
     public void invalidDay(){
-        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
-        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
-        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
-        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
+        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Day Value");
+        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Day Value");
+        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Day Value");
+        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Day Value");
     }
     public void validNextDate(){
         assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
@@ -40,10 +40,10 @@ public class AppTest
         assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
     }
     public void validNextMonth(){
-        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
-        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
-        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
-        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
+        assertEquals(NextDate.Date(2024, 5, 31), "Invalid Year Value");
+        assertEquals(NextDate.Date(2002, 6, 30), "Invalid Year Value");
+        assertEquals(NextDate.Date(2013, 10, 31), "Invalid Year Value");
+        assertEquals(NextDate.Date(2050, 4, 30), "Invalid Year Value");
 
     }
     public void validNextYear(){
