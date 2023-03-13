@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="edc881d7-7021-4dc1-b47a-e8e5a9e585a2" name="Changes" comment="should work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextTest/src/main/java/com/ontariotechu/sofe3980U/NextDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/src/main/java/com/ontariotechu/sofe3980U/NextDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextTest/src/main/java/com/ontariotechu/sofe3980U/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/src/main/java/com/ontariotechu/sofe3980U/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NextTest/src/test/java/com/ontariotechu/sofe3980U/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/src/test/java/com/ontariotechu/sofe3980U/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NextTest/target/NextTest-1.0.0-jar-with-dependencies.jar" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/target/NextTest-1.0.0-jar-with-dependencies.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NextTest/target/NextTest-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/target/NextTest-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NextTest/target/classes/com/ontariotechu/sofe3980U/NextDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/target/classes/com/ontariotechu/sofe3980U/NextDate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NextTest/target/maven-javadoc-plugin-stale-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/target/maven-javadoc-plugin-stale-data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NextTest/target/site/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/target/site/apidocs/allclasses-frame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NextTest/target/site/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/NextTest/target/site/apidocs/allclasses-noframe.html" afterDir="false" />
