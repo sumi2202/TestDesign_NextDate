@@ -9,7 +9,6 @@ public class App
 {
     public static void main( String[] args )
     {
-        NextDate dateUp = new NextDate();
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the date in numerical form in the following order:\nyear (yyyy)\nmonth (mm)\nday (dd)\nEnter after every input.");
 

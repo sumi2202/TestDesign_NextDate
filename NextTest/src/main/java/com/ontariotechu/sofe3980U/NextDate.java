@@ -5,7 +5,7 @@ public class NextDate {
     public static String Date(int year, int month, int day){
 
         String returnDate;
-        boolean yearLeap = true;
+        boolean yearLeap = false;
 
         //checking to see if a valid year, month, and day are provided
         if(year < 1812 || year > 2212){
