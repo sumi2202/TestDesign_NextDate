@@ -18,7 +18,7 @@ public class AppTest
     public void invalidYear(){
         assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
         assertEquals(NextDate.Date(2222, 10, 29), "Invalid Year Value");
-        assertEquals(NextDate.Date(3232, 7, 10), "Invalid Year Value");
+        assertEquals(NextDate.Date(1800, 7, 10), "Invalid Year Value");
         assertEquals(NextDate.Date(1000, 5, 23), "Invalid Year Value");
     }
     public void invalidMonth(){
@@ -61,10 +61,10 @@ public class AppTest
 
     }
     public void NonLeapYear(){
-        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
-        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
-        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
-        assertEquals(NextDate.Date(3021, 12, 24), "Invalid Year Value");
+        assertEquals(NextDate.Date(2005, 2, 28), "2005/3/1");
+        assertEquals(NextDate.Date(1899, 2, 28), "1899/3/1");
+        assertEquals(NextDate.Date(2037, 2, 28), "2037/3/1");
+        assertEquals(NextDate.Date(1973, 2, 28), "1973/3/1");
 
     }
 }
