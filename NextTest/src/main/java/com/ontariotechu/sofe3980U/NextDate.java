@@ -25,19 +25,23 @@ public class NextDate {
             yearLeap = true;
         }
         //ensuring that the months that have 30 days and the months that have 31 days are accounted for
+        //The months January, March, May, July, August, and October, all have 31 days
         if((month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10) && day == 31){
             month = month + 1;
             day = 1;
         }
-        else if((month == 4 || month == 6 || month == 9 || month == 11 ) && day == 31){
+        //The months April, June, September, and November, all have 30 days in them
+        else if((month == 4 || month == 6 || month == 9 || month == 11 ) && day == 30){
             month = month + 1;
             day = 1;
         }
+        //December 31st of any year before 2212 will be incremented to January 1st of the next year
         else if(month == 12 && day == 31 && year < 2212){
             month = 1;
             day = 1;
             year = year + 1;
         }
+        //December 31st, 2212 will not be incremented as it is out of range
         else if(month == 12 && day == 31 && year == 2212){
             return "Beyond Range";
         }
