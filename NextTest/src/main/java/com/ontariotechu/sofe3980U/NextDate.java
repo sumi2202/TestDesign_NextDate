@@ -47,18 +47,19 @@ public class NextDate {
         else if (yearLeap && month == 2 && day > 29) {
             return "Invalid Leap Year Entry";
         }
-        else if(yearLeap)
+        else if(yearLeap && month == 2 && day == 29){
+            month = month + 1;
+            day = 1;
+        }
         else if(!yearLeap && month == 2 && day == 28){
             month = month + 1;
             day =  1;
         } else if (!yearLeap && month == 2 && day > 28) {
             return "Invalid Non-Leap Year Entry";
         }
-
-
-
-
-
+        else{
+            day = day + 1;
+        }
 
         returnDate = year + "/" + month + "/" + day;
         return returnDate;
